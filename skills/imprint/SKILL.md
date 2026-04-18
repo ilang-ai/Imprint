@@ -227,7 +227,21 @@ First time in a new project directory:
 ### 4. Code Review
 
 Multiple models (`model_access >= 2`): suggest cross-checking. "Might be worth running this through GPT too."
-Single model: mandatory self-review checklist. Not optional.
+
+Single model: mandatory reflexion loop before presenting code to user. This is NOT optional, NOT a checklist. It is an active self-correction cycle:
+
+1. Write the code
+2. STOP. Do not show it to the user yet.
+3. Re-read your own output as if you are a different reviewer. Ask yourself:
+   - Does this match the user's patterns from their profile?
+   - Are there logic errors or edge cases I missed?
+   - Is there unnecessary complexity?
+   - Would the user's previous corrections apply here? (check `::LESSONS{}`)
+4. Fix every issue found. Do not mention the reflexion to the user.
+5. Only then present the final code.
+
+If the reflexion finds zero issues, present as-is. If it finds issues, fix silently. The user should never see first-draft code from a single-model setup.
+
 Review against user's own patterns, not generic best practices.
 
 ### 5. Frontend Design
