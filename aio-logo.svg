@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5dea0"></stop>
+      <stop offset="50%" stop-color="#d4a858"></stop>
+      <stop offset="100%" stop-color="#8f6321"></stop>
+    </linearGradient>
+    <radialGradient id="s" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="rgba(255,255,255,.12)"></stop>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"></stop>
+    </radialGradient>
+  </defs>
+  
+  <rect width="64" height="64" rx="14" fill="#0b0f1a"></rect>
+  <rect width="64" height="64" rx="14" fill="url(#s)"></rect>
+  
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="url(#g)" stroke-width=".5" opacity=".45"></rect>
+
+  
+  
+  <rect x="13" y="30" width="14" height="4" fill="url(#g)"></rect>
+  
+  <circle cx="29" cy="32" r="3.2" fill="url(#g)"></circle>
+
+  
+  <g stroke="url(#g)" stroke-width="2" stroke-linecap="round" fill="none">
+    <line x1="30" y1="32" x2="52" y2="12"></line>
+    <line x1="30" y1="32" x2="54" y2="18"></line>
+    <line x1="30" y1="32" x2="55" y2="24"></line>
+    <line x1="30" y1="32" x2="55" y2="30"></line>
+    <line x1="30" y1="32" x2="55" y2="34"></line>
+    <line x1="30" y1="32" x2="55" y2="40"></line>
+    <line x1="30" y1="32" x2="54" y2="46"></line>
+    <line x1="30" y1="32" x2="52" y2="52"></line>
+    <line x1="30" y1="32" x2="48" y2="54"></line>
+    <line x1="30" y1="32" x2="44" y2="56"></line>
+    <line x1="30" y1="32" x2="40" y2="57"></line>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f1a"></stop>
+      <stop offset="50%" stop-color="#13203a"></stop>
+      <stop offset="100%" stop-color="#0b0f1a"></stop>
+    </linearGradient>
+    <radialGradient id="gold" cx="88%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d4a858" stop-opacity="0.18"></stop>
+      <stop offset="100%" stop-color="#d4a858" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="blue" cx="10%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="rule" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#d4a858" stop-opacity="0"></stop>
+      <stop offset="20%" stop-color="#d4a858" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#d4a858" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#d4a858" stop-opacity="0"></stop>
+    </linearGradient>
+    <radialGradient id="gridmask" cx="50%" cy="50%" r="70%">
+      <stop offset="20%" stop-color="#fff" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
+    </radialGradient>
+    <mask id="gridmaskref">
+      <rect width="960" height="320" fill="url(#gridmask)"></rect>
+    </mask>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#d4a858" stroke-opacity="0.06" stroke-width="1"></path>
+    </pattern>
+  </defs>
+
+  
+  <rect width="960" height="320" fill="url(#bg)"></rect>
+  <rect width="960" height="320" fill="url(#gold)"></rect>
+  <rect width="960" height="320" fill="url(#blue)"></rect>
+  <rect width="960" height="320" fill="url(#grid)" mask="url(#gridmaskref)"></rect>
+
+  
+  <rect x="0" y="40" width="3" height="240" fill="url(#rule)"></rect>
+
+  
+  <g font-family="&#39;JetBrains Mono&#39;, ui-monospace, Menlo, monospace" font-size="11" letter-spacing="3" fill="#d4a858" font-weight="500">
+    <text x="60" y="62">◆ I-LANG SKILL</text>
+    <text x="185" y="62" fill="#d4a858" fill-opacity="0.5">/</text>
+    <text x="197" y="62">V1.2</text>
+    <text x="237" y="62" fill="#d4a858" fill-opacity="0.5">/</text>
+    <text x="249" y="62">MIT</text>
+  </g>
+
+  
+  <g>
+    <rect x="820" y="46" width="84" height="24" fill="none" stroke="#d4a858" stroke-opacity="0.4" stroke-width="1" rx="2"></rect>
+    <text x="862" y="62" font-family="&#39;JetBrains Mono&#39;, ui-monospace, Menlo, monospace" font-size="10" letter-spacing="2" fill="#e8ecf3" fill-opacity="0.7" text-anchor="middle" font-weight="500">SKILL.md</text>
+  </g>
+
+  
+  <text x="60" y="185" font-family="&#39;Cormorant Garamond&#39;, &#39;Times New Roman&#39;, serif" font-size="96" font-weight="500" letter-spacing="-2" fill="#ffffff">All-in-<tspan fill="#d4a858" font-style="italic" font-weight="400">One</tspan></text>
+
+  
+  <text x="60" y="220" font-family="&#39;Cormorant Garamond&#39;, &#39;Times New Roman&#39;, serif" font-size="22" font-style="italic" fill="#e8ecf3" fill-opacity="0.75">One skill replaces eleven. Portable across every agent.</text>
+
+  
+  <line x1="60" y1="252" x2="900" y2="252" stroke="#d4a858" stroke-opacity="0.2" stroke-width="1"></line>
+
+  
+  <g font-family="&#39;Cormorant Garamond&#39;, serif" font-size="28" fill="#d4a858" font-style="italic" font-weight="500">
+    <text x="60" y="285">11</text>
+    <text x="190" y="285">19</text>
+    <text x="310" y="285">&lt;500</text>
+  </g>
+  <g font-family="&#39;JetBrains Mono&#39;, ui-monospace, Menlo, monospace" font-size="10" letter-spacing="2" fill="#e8ecf3" fill-opacity="0.55" font-weight="500">
+    <text x="92" y="284">SKILLS MERGED</text>
+    <text x="215" y="284">AGENTS</text>
+    <text x="365" y="284">TOKENS</text>
+  </g>
+
+  
+  <g font-family="&#39;JetBrains Mono&#39;, ui-monospace, Menlo, monospace" font-size="10" letter-spacing="2" fill="#e8ecf3" fill-opacity="0.5" text-anchor="end" font-weight="500">
+    <text x="900" y="284"><tspan fill="#d4a858" font-weight="600">ILANG.AI</tspan>  ·  EASTSOFT  ·  PALM MEDIA</text>
+  </g>
+</svg>
