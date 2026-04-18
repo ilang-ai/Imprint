@@ -1,0 +1,11 @@
+{
+  "name": "imprint",
+  "description": "Your habits, imprinted on AI. One plugin replaces eleven skills: memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, SEO, and copywriting. Learns how you work and applies it across every session, project, and platform.",
+  "version": "1.3.0",
+  "author": {
+    "name": "I-Lang Protocol"
+  },
+  "homepage": "https://github.com/ilang-ai/Imprint",
+  "repository": "https://github.com/ilang-ai/Imprint",
+  "license": "MIT"
+}
