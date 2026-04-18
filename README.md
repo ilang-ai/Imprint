@@ -14,21 +14,22 @@ tags:
   - compression
   - ai-collaboration
   - portable-profile
+  - imprint
 license: mit
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ilang-ai/all-in-one/main/aio-banner.png" alt="All-in-One AI Skill — One skill replaces eleven." width="960"/>
+<img src="https://raw.githubusercontent.com/ilang-ai/Imprint/main/aio-banner.png" alt="Imprint AI Skill — Your habits, imprinted on AI." width="960"/>
 
-# All-in-One
+# Imprint
 
-### One skill replaces eleven. Portable across every agent.
+### Your habits, imprinted on AI. Portable across every agent.
 
 [![License](https://img.shields.io/badge/License-MIT-1e3a8a?style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.3-d4a858?style=for-the-badge)](#changelog)
-[![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/all-in-one)
-[![Agents](https://img.shields.io/badge/19%20agents-supported-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/all-in-one#compatibility)
+[![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/Imprint)
+[![Agents](https://img.shields.io/badge/19%20agents-supported-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/Imprint#compatibility)
 
 </div>
 
@@ -47,26 +48,26 @@ license: mit
 ### Claude Code (recommended)
 
 ```
-/plugin marketplace add ilang-ai/all-in-one
-/plugin install all-in-one@ilang-skills
+/plugin marketplace add ilang-ai/Imprint
+/plugin install imprint@ilang-plugins
 ```
 
 ### Codex CLI
 
 ```bash
-npx skills add ilang-ai/all-in-one
+npx skills add ilang-ai/Imprint
 ```
 
 ### Manual test
 
 ```bash
-git clone https://github.com/ilang-ai/all-in-one.git
-claude --plugin-dir ./all-in-one
+git clone https://github.com/ilang-ai/Imprint.git
+claude --plugin-dir ./Imprint
 ```
 
 ### Any SKILL.md-compatible agent
 
-Copy `skills/all-in-one/SKILL.md` into your agent's skills directory.
+Copy `skills/imprint/SKILL.md` into your agent's skills directory.
 
 ---
 
@@ -89,7 +90,7 @@ taste, your git habits. All personalized. All compressed. All portable.
 
 ## What It Replaces
 
-| You used to install...        | All-in-One does it by                                                        |
+| You used to install...        | Imprint does it by                                                        |
 | :--------------------------- | :--------------------------------------------------------------------------- |
 | `claude-mem` (memory)        | Stores **how you work**, not what happened. ~90% smaller.                    |
 | `Caveman` (compression)      | Structured format is the default, not a mode.                                |
@@ -166,7 +167,7 @@ Five layers. One file. Under 500 tokens.
 ### v1.3 (2026-04-18)
 - **Add** plugin manifest (`.claude-plugin/plugin.json`) for official marketplace submission
 - **Add** marketplace catalog (`.claude-plugin/marketplace.json`) for self-distribution
-- **Move** SKILL.md to `skills/all-in-one/SKILL.md` per plugin spec
+- **Move** SKILL.md to `skills/imprint/SKILL.md` per plugin spec
 - **Update** install instructions for plugin format
 
 ### v1.2 (2026-04-18)
@@ -200,7 +201,7 @@ human-readable, those are the two hard constraints.
 ## Links
 
 - [ilang.ai](https://ilang.ai)
-- [GitHub](https://github.com/ilang-ai/all-in-one)
+- [GitHub](https://github.com/ilang-ai/Imprint)
 - [Hugging Face](https://huggingface.co/i-Lang)
 - [SKILL.md spec](https://github.com/ilang-ai/ilang-spec)
 

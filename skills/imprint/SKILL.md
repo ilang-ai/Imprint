@@ -1,10 +1,10 @@
 ---
-name: all-in-one
-description: "Portable AI collaboration profile. Makes every AI tool you use understand your work style, preferences, and project context automatically. Use this skill whenever the user starts a new session, opens a project, writes code, reviews code, debugs, plans features, writes commits, generates documents, or does anything related to development. If .dna.md does not exist yet, start the onboarding conversation before doing anything else. This skill should be active in almost every session."
+name: imprint
+description: "Your habits, imprinted on AI. Learns how you work from conversation, builds a portable profile, applies it across every session, project, and platform. Use this skill whenever the user starts a new session, opens a project, writes code, reviews code, debugs, plans features, writes commits, generates documents, or does anything related to work. If .dna.md does not exist yet, start the onboarding conversation before doing anything else. This skill should be active in almost every session."
 license: MIT
 ---
 
-# All-in-One
+# Imprint
 
 One skill. All scenarios. Gets better every time you use it.
 
