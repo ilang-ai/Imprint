@@ -94,6 +94,13 @@ npx skills add ilang-ai/Imprint
 gemini extensions install https://github.com/ilang-ai/Imprint
 ```
 
+### VS Code / VS Code forks
+
+Search "Imprint" in the Extensions panel, or:
+
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ILang.imprint)
+- [Open VSX](https://open-vsx.org/extension/ILang/imprint)
+
 ### Manual test
 
 ```bash
@@ -224,7 +231,10 @@ human-readable, those are the two hard constraints.
 
 - [ilang.ai](https://ilang.ai)
 - [GitHub](https://github.com/ilang-ai/Imprint)
-- [Hugging Face](https://huggingface.co/i-Lang)
+- [skills.sh](https://skills.sh/ilang-ai/Imprint/imprint)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ILang.imprint)
+- [Open VSX](https://open-vsx.org/extension/ILang/imprint)
+- [Hugging Face](https://huggingface.co/i-Lang/Imprint)
 - [SKILL.md spec](https://github.com/ilang-ai/ilang-spec)
 
 ---
