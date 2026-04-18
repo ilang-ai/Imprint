@@ -88,6 +88,12 @@ npx skills add ilang-ai/Imprint
 /add-plugin ilang-ai/Imprint
 ```
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/ilang-ai/Imprint
+```
+
 ### Manual test
 
 ```bash
