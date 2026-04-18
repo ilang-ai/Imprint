@@ -61,7 +61,7 @@ alongside your code. Under 500 tokens. Structured. Readable. Yours.
 
 Every session after that, the skill applies your imprint automatically:
 your code style, your review standards, your planning rhythm, your design
-taste, your git habits. Across 19 agents. Across every project.
+taste, your git habits. Portable across any SKILL.md-compatible agent.
 
 **Switch models. Switch platforms. Switch teams. Your imprint comes with you.**
 
@@ -114,25 +114,25 @@ Copy `skills/imprint/SKILL.md` into your agent's skills directory.
 
 ---
 
-## What It Replaces
+## What It Overlaps With
 
-One file. Eleven capabilities. Zero dependencies.
+Imprint covers ground that these skills address individually. Not a drop-in replacement for all of them, but a single file that handles the common cases.
 
-| You used to install...        | Imprint does it by                                                            |
+| Instead of installing...      | Imprint covers this by                                                       |
 | :--------------------------- | :--------------------------------------------------------------------------- |
 | `claude-mem` (memory)        | Stores **how you work**, not what happened. ~90% smaller.                    |
 | `Caveman` (compression)      | Structured format is the default, not a mode.                                |
 | `onboard`                    | Project context extraction on first run.                                     |
 | Code-review skills           | Review against **your** standards, not universal rules.                      |
 | `systematic-debugging`       | Architecture first, then binary search. Lessons become immunity.             |
-| `superpowers` (planning)     | Your rhythm, not a fixed methodology. ~80% fewer tokens.                     |
+| `superpowers` (planning)     | Your rhythm, not a fixed methodology.                                        |
 | Progress-tracking skills     | Auto-checkpoint on meaningful state changes.                                 |
 | TDD skills                   | Resources decide strategy, multi-model or single, auto-adapts.               |
-| Git-workflow skills          | Every commit is SEO. README is a landing page.                               |
-| `seo-audit`                  | Structured output is native GEO. No audit needed.                            |
+| Git-workflow skills          | Searchable commits, README as landing page when discoverability is on.       |
+| `seo-audit`                  | Structured output is more parseable by AI search engines.                    |
 | Copywriting skills           | Tone, terminology, and rhythm derived from your imprint.                     |
 
-**11 skills → 1 imprint → every agent.**
+**One file. Eleven capability areas. Depth varies by area.**
 
 ---
 
@@ -140,23 +140,22 @@ One file. Eleven capabilities. Zero dependencies.
 
 <div align="center">
 
-| Agent           | Status | Install                    |
-| :-------------- | :----: | :------------------------- |
-| **Claude Code** | ✅     | `/plugin marketplace add`  |
-| **Codex CLI**   | ✅     | `npx skills add`           |
-| **Cursor**      | ✅     | `/add-plugin` or skills dir|
-| **Copilot**     | ✅     | drop in skills dir         |
-| **Gemini**      | ✅     | drop in skills dir         |
-| **Windsurf**    | ✅     | drop in skills dir         |
-| **Trae**        | ✅     | drop in skills dir         |
-| **Cline**       | ✅     | drop in skills dir         |
-| **Roo**         | ✅     | drop in skills dir         |
-| *+ 10 more*     | ✅     | SKILL.md standard          |
+| Agent           | Support    | Install                    |
+| :-------------- | :--------: | :------------------------- |
+| **Claude Code** | native     | `/plugin marketplace add`  |
+| **Codex CLI**   | native     | `npx skills add`           |
+| **Cursor**      | native     | `/add-plugin` or skills dir|
+| **Gemini CLI**  | native     | `gemini extensions install`|
+| **VS Code**     | extension  | VS Code Marketplace        |
+| **Copilot**     | SKILL.md   | drop in skills dir         |
+| **Windsurf**    | SKILL.md   | drop in skills dir         |
+| **Trae**        | SKILL.md   | drop in skills dir         |
+| **Cline**       | SKILL.md   | drop in skills dir         |
+| **Roo**         | SKILL.md   | drop in skills dir         |
 
 </div>
 
-Any agent that speaks the SKILL.md standard works. **19 agents** today,
-more as the standard spreads.
+**native** = dedicated plugin/extension manifest. **SKILL.md** = compatible via the open Agent Skills standard. Any agent that reads SKILL.md files can load Imprint.
 
 ---
 
@@ -177,14 +176,72 @@ Switch tools, the imprint comes with you. No lock-in. Ever.
 ## Schema at a glance
 
 ```text
-META        imprint version, identity hash, last-updated
-FACT        immutable preferences (code style, license, naming)
-PROJECT     current project shape, stack, constraints
-PROGRESS    checkpoints, decisions, lessons
-RUNTIME     per-session volatile state
+META        schema version, timestamps, session count
+CORE        global behavioral genes with confidence and scope
+  GENE      traits (T:) and anti-patterns (A:), conditional via when:
+FACT        verifiable environment data (stack, deploy target, model access)
+PROJECT     repo-specific overrides, stack, constraints, mismatches
+LESSONS     cross-project traps, accumulated from real experience
+PROGRESS    milestone-only checkpoints, auto-summarized every 10 entries
+RUNTIME     current mode settings (transparency, speed, compression)
+DECAY       lifecycle rules for tentative genes and inactive projects
 ```
 
-Five layers. One file. Under 500 tokens.
+Core imprint stays under 500 tokens. Project and progress layers can grow.
+
+---
+
+## Example: real .dna.md
+
+This is what an actual profile looks like after a few sessions:
+
+```
+::DNA{user}
+::META{schema:2.0|updated:2026-04-18|sessions:5}
+
+::CORE{
+  ::CONTEXT{role:fullstack_dev|experience:4yr|model_access:2|discoverability:yes}
+
+  ::GENE{style|conf:confirmed|scope:global}
+    T:conclusions_first
+    T:minimal_output|when:task_simple
+    T:full_detail|when:task_complex
+    A:verbose_without_signal⇒waste
+
+  ::GENE{planning|conf:confirmed|scope:global}
+    T:build_first_plan_later
+    A:monolithic_spec⇒reject
+
+  ::GENE{debug|conf:4/5|scope:global}
+    T:check_architecture_before_code
+    A:guess_from_error_message⇒wrong_direction
+}
+
+::FACT{
+  ::ITEM{key:preferred_stack|value:react,node|conf:confirmed}
+  ::ITEM{key:models_used|value:claude,gpt|conf:confirmed}
+}
+
+::PROJECT{repo:my-saas}
+  ::STACK{frontend:next.js|backend:node|db:postgres}
+  ::CONSTRAINT{auth:clerk|deploy:vercel}
+}
+
+::LESSONS{
+  ::LESSON{id:middleware_order_matters|type:debug|scope:project|conf:confirmed}
+  ::LESSON{id:always_check_env_vars_first|type:deploy|scope:cross_project|conf:3/5}
+}
+
+::PROGRESS{
+  ::ITEM{date:2026-04-18|done:auth_flow|learned:clerk_webhook_needs_raw_body|next:stripe_integration}
+}
+
+::RUNTIME{transparency:quiet|speed:balanced|compression:structured_default}
+::DECAY{tentative_unseen_30d=>remove|repeated_3x=>confirm|progress_10_items=>summarize}
+::END{DNA}
+```
+
+312 tokens. Carries code style, debugging approach, project context, lessons, and progress across every session and every agent.
 
 ---
 
@@ -265,6 +322,6 @@ MIT License. 2026 Eastsoft Inc. / Palm Media Technology / Canada.
 
 **Powered by the [I-Lang Protocol](https://ilang.ai)**, an open standard for human-AI communication.
 
-*Published by Claude (automated) / Free forever*
+*Published by Claude (automated)*
 
 </div>
