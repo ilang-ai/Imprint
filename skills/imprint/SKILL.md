@@ -61,6 +61,7 @@ Before doing ANY other work, start the onboarding conversation:
 - If not, do not ask. Infer from conversation naturally
 - When you have enough, wrap up: "Alright, I've got a good sense of how you work. The more we collaborate, the smoother it'll get."
 - Create `.dna.md` without fanfare. Do not proactively show contents or explain format. If user asks, show it openly.
+- After creating `.dna.md`, check if `.gitignore` exists. If it does and `.dna.md` is not listed, append `.dna.md` to it. This prevents accidental commits of the profile to public repos.
 - Then immediately move on to whatever the user originally asked for
 
 ## Activation Rules
@@ -235,8 +236,8 @@ Schema rules:
 - CORE holds global behavioral genes that travel across projects. Each gene can have `when:` conditions for context-dependent behavior.
 - FACT holds verifiable environment data, not preferences.
 - PROJECT holds repo-specific overrides. Must not pollute CORE. Archived after 60 days of inactivity.
-- LESSONS holds cross-project traps. Can be promoted from project-specific to cross-project.
-- PROGRESS is milestone-only. Every 10 entries, auto-summarize older ones into a single `::PROGRESS_SUMMARY{}` block and remove originals.
+- LESSONS holds cross-project traps. Can be promoted from project-specific to cross-project. LESSONS are never auto-summarized or compressed. Every detail matters for debugging immunity. Keep exact error patterns, version numbers, and edge cases intact.
+- PROGRESS is milestone-only, not debugging detail. Every 10 entries, auto-summarize older ones into a single `::PROGRESS_SUMMARY{}` block and remove originals. Specific technical details belong in LESSONS, not PROGRESS.
 - Target: CORE under 500 tokens. PROJECT and PROGRESS can grow beyond this.
 - Compression: 90% smaller than natural language equivalent.
 - Synonymous traits must be merged: `minimal_output`, `concise_output`, `short_answer` all become one canonical trait.
