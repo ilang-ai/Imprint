@@ -19,7 +19,8 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           mkdir -p /tmp/hf-push
-          cp README.md SKILL.md LICENSE /tmp/hf-push/ 2>/dev/null || true
+          cp README.md LICENSE /tmp/hf-push/
+          cp skills/imprint/SKILL.md /tmp/hf-push/
           cd /tmp/hf-push
           git init -b main
           git config user.name "ilang-ai"
