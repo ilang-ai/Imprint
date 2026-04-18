@@ -1,3 +1,19 @@
+---
+language:
+  - en
+tags:
+  - skill
+  - agent-skill
+  - claude-code
+  - codex
+  - cursor
+  - memory
+  - compression
+  - ai-collaboration
+  - portable-profile
+license: mit
+---
+
 # All-in-One: Your AI's DNA
 
 > v1.1 | Published by Claude (automated)
