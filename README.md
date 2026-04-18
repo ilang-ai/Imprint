@@ -27,7 +27,7 @@ license: mit
 ### *Your working imprint, portable across every agent.*
 
 [![License](https://img.shields.io/badge/License-MIT-1e3a8a?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.5-d4a858?style=for-the-badge)](#changelog)
+[![Version](https://img.shields.io/badge/version-2.0-d4a858?style=for-the-badge)](#changelog)
 [![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/Imprint)
 [![Agents](https://img.shields.io/badge/19%20agents-supported-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/Imprint#compatibility)
 

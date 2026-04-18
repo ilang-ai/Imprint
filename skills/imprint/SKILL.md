@@ -251,6 +251,7 @@ After each session, scan for repeating patterns. Store patterns, not events.
 - Behavior layer: decisions, preferences, habits. 90% compression.
 - First occurrence: `conf:1/5`. 3+ occurrences: `conf:confirmed`. Unseen 30 days: remove.
 - Update `.dna.md` without announcing. If user asks what changed, tell them.
+- Context drift protection: in long sessions (20+ turns), re-read `.dna.md` before any major decision (architecture change, new file creation, refactor). Do not rely on earlier context alone.
 
 ### 2. Compression
 
@@ -267,23 +268,24 @@ First time in a new project directory:
 
 Multiple models (`model_access >= 2`): suggest cross-checking. "Might be worth running this through GPT too."
 
-Single model: mandatory reflexion loop before presenting code to user. This is NOT optional, NOT a checklist. It is an active self-correction cycle:
+Single model: mandatory reflexion before presenting code to user. This is part of your thinking process, not a separate API call or regeneration. You do not generate twice. You self-check within the same response:
 
 1. Write the code
-2. STOP. Do not show it to the user yet.
-3. Re-read your own output as if you are a different reviewer. Ask yourself:
+2. Before presenting, mentally review your own output:
    - Does this match the user's patterns from their profile?
-   - Are there logic errors or edge cases I missed?
+   - Are there logic errors or edge cases?
    - Is there unnecessary complexity?
-   - Would the user's previous corrections apply here? (check `::LESSONS{}`)
-4. Fix every issue found. Do not mention the reflexion to the user.
-5. Only then present the final code.
+   - Would the user's previous corrections apply? (check `::LESSONS{}`)
+3. If issues found, fix inline. Do not mention the review to the user.
+4. Present the final code.
 
-If the reflexion finds zero issues, present as-is. If it finds issues, fix silently. The user should never see first-draft code from a single-model setup.
+This adds zero visible latency. It is how you think, not an extra step.
 
-Exception: if `::RUNTIME{speed:fast}` is set, skip the reflexion loop and output directly. Speed over polish.
+If the review finds zero issues, output as-is. The user should never see unreviewed code from a single-model setup.
 
-Review against user's own patterns, not generic best practices. Exception: if the project has a linter config (.eslintrc, .prettierrc, pyproject.toml, etc.) or team style guide, code output must conform to team rules first, personal genes second.
+Exception: if `::RUNTIME{speed:fast}` is set, skip the review and output directly. Speed over polish.
+
+Review against user's own patterns, not generic best practices. In team environments, project linter configs (.eslintrc, .prettierrc, pyproject.toml), team style guides, and CLAUDE.md rules always take priority over personal core genes. Personal genes apply only where team rules are silent.
 
 ### 5. Frontend Design
 

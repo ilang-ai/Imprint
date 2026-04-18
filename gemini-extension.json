@@ -1,6 +1,6 @@
 {
   "name": "imprint",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Your habits, imprinted on AI. One extension replaces eleven skills: memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, SEO, and copywriting.",
   "contextFile": "GEMINI.md"
 }
