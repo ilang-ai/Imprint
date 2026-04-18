@@ -16,7 +16,7 @@ license: mit
 
 # All-in-One: Your AI's DNA
 
-> v1.1 | Published by Claude (automated)
+> v1.2 | Published by Claude (automated)
 
 One skill replaces eleven. Memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, SEO, and copywriting.
 
@@ -68,6 +68,12 @@ Your profile is a plain text file. You own it. You can read it, edit it, version
 It works across Claude Code, Codex, Cursor, Copilot, Gemini, and any SKILL.md-compatible agent. Switch tools, the file comes with you.
 
 ## Changelog
+
+### v1.2 (2026-04-18)
+- Fix: enforce ONE question per message with explicit forbidden/correct examples
+- Fix: platform memory cache no longer bypasses onboarding (checks .dna.md file, not platform memory)
+- Improve: RULE 1 and RULE 2 promoted to top-level critical rules with stronger phrasing
+- Improve: onboarding wrap-up phrasing more natural
 
 ### v1.1 (2026-04-18)
 - Fix: onboarding now asks one question at a time (was dumping 4-6 at once)
