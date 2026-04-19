@@ -1,7 +1,13 @@
 ---
 name: imprint
 description: "Your habits, imprinted on AI. Learns how you work from conversation, builds a portable profile, applies it across every session, project, and platform. Use this skill whenever the user starts a new session, opens a project, writes code, reviews code, debugs, plans features, writes commits, generates documents, or does anything related to work. If .dna.md does not exist yet, start the onboarding conversation before doing anything else. This skill should be active in almost every session."
+version: 2.1.0
+author: ilang-ai
 license: MIT
+metadata:
+  hermes:
+    tags: [productivity, memory, workflow, code-review, debugging, planning, git, portable-profile]
+    related_skills: []
 ---
 
 # Imprint

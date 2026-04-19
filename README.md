@@ -10,6 +10,8 @@ tags:
   - cursor
   - copilot
   - gemini
+  - hermes
+  - hermes-agent
   - windsurf
   - memory
   - compression
@@ -27,7 +29,7 @@ license: mit
 ### *Your working imprint, portable across every agent.*
 
 [![License](https://img.shields.io/badge/License-MIT-1e3a8a?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0-d4a858?style=for-the-badge)](#changelog)
+[![Version](https://img.shields.io/badge/version-2.1-d4a858?style=for-the-badge)](#changelog)
 [![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/Imprint)
 [![Agents](https://img.shields.io/badge/19%20agents-supported-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/Imprint#compatibility)
 
@@ -101,6 +103,12 @@ Search "Imprint" in the Extensions panel, or:
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ILang.imprint)
 - [Open VSX](https://open-vsx.org/extension/ILang/imprint)
 
+### Hermes Agent
+
+```bash
+hermes skills install ilang-ai/Imprint
+```
+
 ### Manual test
 
 ```bash
@@ -146,6 +154,7 @@ Imprint covers ground that these skills address individually. Not a drop-in repl
 | **Codex CLI**   | native     | `npx skills add`           |
 | **Cursor**      | native     | `/add-plugin` or skills dir|
 | **Gemini CLI**  | native     | `gemini extensions install`|
+| **Hermes**      | native     | `hermes skills install`    |
 | **VS Code**     | extension  | VS Code Marketplace        |
 | **Copilot**     | SKILL.md   | drop in skills dir         |
 | **Windsurf**    | SKILL.md   | drop in skills dir         |
@@ -246,6 +255,11 @@ This is what an actual profile looks like after a few sessions:
 ---
 
 ## Changelog
+
+### v2.1 (2026-04-19)
+- **Add** Hermes Agent compatibility: native install via `hermes skills install ilang-ai/Imprint`
+- **Add** agentskills.io-compatible frontmatter (version, author, metadata.hermes.tags)
+- **Update** compatibility table and install docs
 
 ### v2.0 (2026-04-18)
 - **Schema 2.0**: CORE/PROJECT layered separation. Global genes no longer mix with project overrides.
