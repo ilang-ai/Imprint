@@ -71,6 +71,14 @@ taste, your git habits. Portable across any SKILL.md-compatible agent.
 
 ## Install
 
+### Claude Code (recommended)
+
+```
+/install imprint
+```
+
+[View on Claude Code Marketplace](https://platform.claude.com/plugins/imprint)
+
 ### Any SKILL.md-compatible agent (universal)
 
 Copy `skills/imprint/SKILL.md` into your agent's skills directory. Works with Claude Code, Cursor, Copilot, Windsurf, Trae, Cline, Roo, and any agent that reads SKILL.md files.
@@ -134,7 +142,7 @@ Imprint covers ground that these skills address individually. Not a drop-in repl
 | :-------------- | :----------: | :----------------------------------- |
 | **Hermes**      | native       | `hermes skills install ilang-ai/Imprint` |
 | **VS Code**     | extension    | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ILang.imprint) |
-| **Claude Code** | SKILL.md     | copy to `~/.claude/skills/imprint/`  |
+| **Claude Code** | marketplace  | `/install imprint`                   |
 | **Cursor**      | directory    | [Cursor Directory](https://cursor.directory/plugins/imprint) |
 | **Codex CLI**   | SKILL.md     | copy to `~/.codex/skills/imprint/`   |
 | **Copilot**     | SKILL.md     | copy to `~/.github/skills/imprint/`  |
