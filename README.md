@@ -326,7 +326,7 @@ MIT License. 2026 Eastsoft Inc. / Palm Media Technology / Canada.
 
 <div align="center">
 
-**Powered by the [I-Lang Protocol](https://ilang.ai)**, an open standard for human-AI communication.
+**Powered by the [I-Lang v4.0 Protocol](https://ilang.ai)**, an open standard for human-AI communication.
 
 *Published by Claude (automated)*
 
