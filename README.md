@@ -320,7 +320,7 @@ human-readable, those are the two hard constraints.
 
 ## License
 
-MIT License. 2026 Eastsoft Inc. / Palm Media Technology / Canada.
+MIT License. 2026 iLang Inc. / Palm Media Technology / Canada.
 
 ---
 
