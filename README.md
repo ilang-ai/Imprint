@@ -245,7 +245,38 @@ This is what an actual profile looks like after a few sessions:
 
 ---
 
+## Preset Templates
+
+Drop-in `.dna.md` presets for common workflows. Use as-is, or paste their genes into your existing profile.
+
+| Template | What it does | Based on |
+|----------|-------------|----------|
+| [karpathy-mode](./templates/karpathy-mode.dna.md) | Don't assume. Minimal code. Don't touch what you don't understand. Goal-driven execution. | [Andrej Karpathy's coding observations](https://x.com/karpathy) |
+
+**Why these are better than a CLAUDE.md:**
+
+A markdown rules file says "don't overcomplicate code." An Imprint gene says:
+
+```
+::GENE{minimal_code|conf:confirmed|scope:global}
+  T:minimum_code_that_solves_the_problem
+  T:if_200_lines_could_be_50⇒rewrite
+  A:bloated_abstraction⇒maintenance_burden⇒reject
+  A:1000_lines_when_100_would_do⇒rewrite_before_submit
+```
+
+The difference: anti-patterns with consequence chains, confidence levels that evolve, conflict resolution when rules contradict, and composability with your own genes. Rules tell AI what to do. Genes teach AI how to think.
+
+Want to contribute a template? See [Contributing](#contributing).
+
+---
+
 ## Changelog
+
+### v2.2 (2026-06-05)
+- **Add** `templates/` directory with preset `.dna.md` files
+- **Add** karpathy-mode template: 4 Karpathy coding principles as Imprint genes
+- **Add** conflict resolution rules for karpathy genes vs user overrides
 
 ### v2.1 (2026-04-19)
 - **Add** Hermes Agent compatibility: native install via `hermes skills install ilang-ai/Imprint`
