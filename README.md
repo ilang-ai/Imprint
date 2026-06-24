@@ -55,6 +55,8 @@ license: mit
 **Imprint** is a single plugin that captures **how *you* work** and
 carries it across every AI agent you use.
 
+Built on I-Lang, the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms).
+
 On first run, the skill has a short conversation with you. **Not about your
 project, about you.** How you debug, how you plan, how you write commits,
 what you've shipped, what went wrong, what you prefer.
