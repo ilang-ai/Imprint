@@ -9,7 +9,8 @@
       "name": "imprint",
       "source": ".",
       "description": "Your habits, imprinted on AI. One plugin replaces eleven skills: memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, SEO, and copywriting.",
-      "version": "2.1.0"
+      "version": "2.3.0"
     }
-  ]
+  ],
+  "description": "Imprint — a portable working profile plus I-Lang v5.0 judgment for AI agents."
 }
