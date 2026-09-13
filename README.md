@@ -32,7 +32,7 @@ license: mit
 [![Version](https://img.shields.io/badge/version-2.3-d4a858?style=for-the-badge)](#changelog)
 [![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/Imprint)
 [![Agents](https://img.shields.io/badge/11%20agents-compatible-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/Imprint#compatibility)
-[![I-Lang L2](https://img.shields.io/badge/I--Lang-L2_Compatible-d4a858?style=for-the-badge)](https://github.com/ilang-ai/ilang-spec)
+[![I-Lang L0](https://img.shields.io/badge/I--Lang-L0_Compatible-d4a858?style=for-the-badge)](https://github.com/ilang-ai/ilang-spec)
 
 </div>
 
@@ -57,7 +57,7 @@ license: mit
 with you first, when the project's rules should win over your defaults. Both
 travel across every AI agent you use.
 
-Built on I-Lang, the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms).
+Built on I-Lang, the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms, fuzzy-mathematical foundation).
 
 On first run, the skill has a short conversation with you. **Not about your
 project, about you.** How you debug, how you plan, how you write commits,
@@ -131,7 +131,7 @@ Imprint covers ground that these skills address individually. Not a drop-in repl
 
 | Instead of installing...      | Imprint covers this by                                                       |
 | :--------------------------- | :--------------------------------------------------------------------------- |
-| `claude-mem` (memory)        | Stores **how you work**, not what happened. ~90% smaller.                    |
+| `claude-mem` (memory)        | Stores **how you work**, not what happened.                                  |
 | `Caveman` (compression)      | Structured format is the default, not a mode.                                |
 | `onboard`                    | Project context extraction on first run.                                     |
 | Code-review skills           | Review against **your** standards, not universal rules.                      |
@@ -253,7 +253,7 @@ This is what an actual profile looks like after a few sessions:
 ::END{DNA}
 ```
 
-312 tokens. Carries code style, debugging approach, project context, lessons, and progress across every session and every agent.
+Carries code style, debugging approach, project context, lessons, and progress across every session and every agent.
 
 ---
 
@@ -364,8 +364,8 @@ human-readable, those are the two hard constraints.
 - [Open VSX](https://open-vsx.org/extension/ILang/imprint)
 - [Cursor Directory](https://cursor.directory/plugins/imprint)
 - [skills.sh](https://skills.sh/ilang-ai/Imprint/imprint)
-- [Hugging Face](https://huggingface.co/i-Lang/Imprint)
-- [SKILL.md spec](https://github.com/ilang-ai/ilang-spec)
+- [Hugging Face](https://huggingface.co/datasets/i-Lang/Imprint)
+- [I-Lang spec](https://github.com/ilang-ai/ilang-spec)
 
 ---
 

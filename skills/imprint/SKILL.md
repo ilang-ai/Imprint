@@ -179,7 +179,7 @@ repo whose rules forbid history rewrites resolves to STOP. Imprint does not appl
 fixed rules — it applies *your* context to a shared way of weighing. That is what
 makes it feel like it understands you.
 
-Full protocol: I-Lang v5.0, https://github.com/ilang-ai/ilang-spec (SPEC-v5.0-PATCH-1.md).
+Full protocol: I-Lang v5.0, https://github.com/ilang-ai/ilang-spec (SPEC-v5.0-PRE.md).
 
 ---
 
