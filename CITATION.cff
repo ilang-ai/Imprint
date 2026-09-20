@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use Imprint, please cite it as below."
+title: "Imprint: a portable working profile for AI agents"
+abstract: >-
+  One agent skill that carries how you work across agents. Imprint reads your
+  conversations, encodes the recurring patterns as compact I-Lang structures,
+  and applies them to memory, compression, onboarding, code review, debugging,
+  planning, progress tracking, testing, git workflow and SEO. The profile is
+  text, stored in your own repository, readable by a person and parseable by a
+  machine, and it installs in any SKILL.md-compatible agent, among them Claude
+  Code, Codex, Cursor, Copilot, Gemini, Hermes and Windsurf.
+type: software
+authors:
+  - given-names: "Long Quan"
+    family-names: "Zhu"
+    orcid: "https://orcid.org/0009-0004-4540-8082"
+    affiliation: "iLang Inc."
+repository-code: "https://github.com/ilang-ai/Imprint"
+url: "https://github.com/ilang-ai/Imprint"
+license: MIT
+version: "2.3.0"
+date-released: "2026-09-21"
+keywords:
+  - agent skills
+  - portable profile
+  - AI memory
+  - I-Lang
+  - code review
+  - Claude Code
+  - Codex
+  - Cursor
