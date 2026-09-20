@@ -33,6 +33,7 @@ license: mit
 [![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/Imprint)
 [![Agents](https://img.shields.io/badge/11%20agents-compatible-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/Imprint#compatibility)
 [![I-Lang L0](https://img.shields.io/badge/I--Lang-L0_Compatible-d4a858?style=for-the-badge)](https://github.com/ilang-ai/ilang-spec)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22865141.svg)](https://doi.org/10.5281/zenodo.22865141)
 
 </div>
 
@@ -368,6 +369,10 @@ human-readable, those are the two hard constraints.
 - [I-Lang spec](https://github.com/ilang-ai/ilang-spec)
 
 ---
+
+## Citation
+
+[CITATION.cff](CITATION.cff); Zenodo archives each release. Concept DOI [10.5281/zenodo.22865141](https://doi.org/10.5281/zenodo.22865141) (all versions).
 
 ## License
 
