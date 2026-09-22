@@ -1,6 +1,6 @@
 {
   "title": "Imprint: a portable working profile for AI agents",
-  "description": "<p>One agent skill that carries how you work across agents. Imprint reads your conversations, encodes the recurring patterns as compact I-Lang structures, and applies them to memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow and SEO. The profile is text, stored in your own repository, readable by a person and parseable by a machine, and it installs in any SKILL.md-compatible agent, among them Claude Code, Codex, Cursor, Copilot, Gemini, Hermes and Windsurf.</p>",
+  "description": "<p>One agent skill that carries how you work across agents. Imprint reads your conversations, encodes the recurring patterns as compact iLang structures, and applies them to memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow and SEO. The profile is text, stored in your own repository, readable by a person and parseable by a machine, and it installs in any SKILL.md-compatible agent, among them Claude Code, Codex, Cursor, Copilot, Gemini, Hermes and Windsurf.</p>",
   "version": "2.3.0",
   "upload_type": "software",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "agent skills",
     "portable profile",
     "AI memory",
-    "I-Lang",
+    "iLang",
     "code review",
     "Claude Code",
     "Codex",

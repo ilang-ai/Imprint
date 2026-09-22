@@ -3,7 +3,7 @@ message: "If you use Imprint, please cite it as below."
 title: "Imprint: a portable working profile for AI agents"
 abstract: >-
   One agent skill that carries how you work across agents. Imprint reads your
-  conversations, encodes the recurring patterns as compact I-Lang structures,
+  conversations, encodes the recurring patterns as compact iLang structures,
   and applies them to memory, compression, onboarding, code review, debugging,
   planning, progress tracking, testing, git workflow and SEO. The profile is
   text, stored in your own repository, readable by a person and parseable by a
@@ -24,7 +24,7 @@ keywords:
   - agent skills
   - portable profile
   - AI memory
-  - I-Lang
+  - iLang
   - code review
   - Claude Code
   - Codex

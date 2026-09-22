@@ -32,7 +32,7 @@ license: mit
 [![Version](https://img.shields.io/badge/version-2.3-d4a858?style=for-the-badge)](#changelog)
 [![Skill Standard](https://img.shields.io/badge/SKILL.md-compatible-0b0f1a?style=for-the-badge&labelColor=d4a858)](https://github.com/ilang-ai/Imprint)
 [![Agents](https://img.shields.io/badge/11%20agents-compatible-0b0f1a?style=for-the-badge)](https://github.com/ilang-ai/Imprint#compatibility)
-[![I-Lang L0](https://img.shields.io/badge/I--Lang-L0_Compatible-d4a858?style=for-the-badge)](https://github.com/ilang-ai/ilang-spec)
+[![iLang L0](https://img.shields.io/badge/iLang-L0_Compatible-d4a858?style=for-the-badge)](https://github.com/ilang-ai/ilang-spec)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22865141.svg)](https://doi.org/10.5281/zenodo.22865141)
 
 </div>
@@ -58,7 +58,7 @@ license: mit
 with you first, when the project's rules should win over your defaults. Both
 travel across every AI agent you use.
 
-Built on I-Lang, the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms, fuzzy-mathematical foundation).
+Built on iLang, the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms, fuzzy-mathematical foundation).
 
 On first run, the skill has a short conversation with you. **Not about your
 project, about you.** How you debug, how you plan, how you write commits,
@@ -75,7 +75,7 @@ taste, your git habits. Portable across any SKILL.md-compatible agent.
 hard to undo, or your own rules collide with the project's, Imprint weighs it the
 way *you* would and picks how to proceed: go ahead, confirm first, advise, or stop
 at a line you drew. Same action, different call for different people and projects.
-This judgment layer follows the I-Lang v5.0 vector protocol, and you never see its
+This judgment layer follows the iLang v5.0 vector protocol, and you never see its
 internals, only the behavior. Nothing runs on a hidden timer: every decision is made
 in the moment it acts, from what is true right then.
 
@@ -287,9 +287,9 @@ Want to contribute a template? See [Contributing](#contributing).
 ## Changelog
 
 ### v2.3.0 (2026-07-03)
-- **Judgment layer (I-Lang v5.0).** Imprint now decides *how* to act, not just what you prefer: execute, confirm first, advise, defer, or stop at a line you set. Ordinary work takes a zero-latency fast path; only hard-to-undo actions and real conflicts escalate to full vector judgment. The judgment is relative — the same action resolves differently for different users and projects. Internals never surfaced to the user.
+- **Judgment layer (iLang v5.0).** Imprint now decides *how* to act, not just what you prefer: execute, confirm first, advise, defer, or stop at a line you set. Ordinary work takes a zero-latency fast path; only hard-to-undo actions and real conflicts escalate to full vector judgment. The judgment is relative — the same action resolves differently for different users and projects. Internals never surfaced to the user.
 - **User-set boundaries.** Optional `::JUDGE{::BOUNDARY{}}` lines are hard stops that override every other signal.
-- **Honesty pass.** Removed automation the skill cannot actually run (no hidden timers or counters). Every profile update now happens in the moment the skill reads or writes the file, from present evidence — the same principle behind I-Lang v5.0.
+- **Honesty pass.** Removed automation the skill cannot actually run (no hidden timers or counters). Every profile update now happens in the moment the skill reads or writes the file, from present evidence — the same principle behind iLang v5.0.
 - **Converged positioning.** Working-style engine first; discoverability/SEO is now an explicit optional mode, not a co-equal headline promise.
 - Version aligned to 2.3.0 across SKILL, all manifests, and marketplace entries. Marketplace descriptions added. Validator: zero warnings.
 
@@ -366,7 +366,7 @@ human-readable, those are the two hard constraints.
 - [Cursor Directory](https://cursor.directory/plugins/imprint)
 - [skills.sh](https://skills.sh/ilang-ai/Imprint/imprint)
 - [Hugging Face](https://huggingface.co/datasets/i-Lang/Imprint)
-- [I-Lang spec](https://github.com/ilang-ai/ilang-spec)
+- [iLang spec](https://github.com/ilang-ai/ilang-spec)
 
 ---
 
@@ -382,7 +382,7 @@ MIT License. 2026 iLang Inc. / Palm Media Technology / Canada.
 
 <div align="center">
 
-**Powered by the [I-Lang v4.0 Protocol](https://ilang.ai)**, an open standard for human-AI communication.
+**Powered by the [iLang v4.0 Protocol](https://ilang.ai)**, an open standard for human-AI communication.
 
 *Published by Claude (automated)*
 
